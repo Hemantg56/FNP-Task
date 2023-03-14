@@ -1,0 +1,457 @@
+/* @import url(media.css); */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* currency div START */
+
+.x {
+    /* height: 30px; */
+    background-color: #5f6128;
+    display: flex;
+    justify-content: right;
+    padding: 6px 30px 6px 0;
+}
+
+.x .cur {
+    word-spacing: 10px;
+}
+
+.x .cur a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sy .fa-chevron-down {
+    color: #fff;
+    font-size: 13px;
+    margin-left: 7px;
+    margin-right: 10px;
+}
+
+.x span {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.x .cor a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+}
+
+
+/* currency div END */
+
+
+/* header START */
+
+header {
+    height: 80px;
+    background-color: #7d8035;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+header .logo {
+    height: 70px;
+    width: 180px;
+    /* background-color: blue; */
+    margin-right: 21px;
+}
+
+header .sea {
+    height: 70px;
+    width: 600px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    position: relative;
+}
+
+header .sea .cak {
+    /* height: 40px; */
+    width: 350px;
+    border-radius: 5px;
+    padding: 10px 0 10px 10px;
+    border: 1px solid
+}
+
+header .sea a .fa-magnifying-glass {
+    position: absolute;
+    top: 28px;
+    left: 320px;
+    color: #464545;
+}
+
+header .sea .del {
+    margin-left: 10px;
+    width: 220px;
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .sea .del a span i .fa-location-dot {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+header .sea .del a {
+    font-size: 15px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #464545;
+}
+
+header .cart {
+    margin-left: 320px;
+    padding: 15px;
+    text-align: center;
+    line-height: 25px;
+}
+
+header .cart .fa-cart-shopping {
+    color: #fff;
+    font-size: 35x;
+}
+
+header .cart p a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15x;
+}
+
+header .user {
+    padding: 15px;
+    text-align: center;
+    line-height: 25px;
+}
+
+header .user .fa-user {
+    color: #fff;
+    font-size: 20px;
+}
+
+header .user p a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15x;
+}
+
+
+/* header END */
+
+
+/* Nav START */
+
+nav {
+    height: 40px;
+    background-color: #f8f8f8;
+    box-shadow: 0 1px 10px rgb(177, 174, 174);
+    display: flex;
+    /* justify-content: center;  */
+    padding-left: 20px;
+    align-items: center;
+    z-index: 0;
+}
+
+nav .f1 {
+    position: relative;
+    z-index: 0;
+}
+
+nav .f1 li {
+    list-style: none;
+    display: inline;
+    margin-left: 21px;
+    z-index: 0;
+}
+
+nav .f1 li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+
+nav .f1 li .ho {
+    height: 40px;
+    width: 100px;
+    background-color: #eee8e8;
+    position: absolute;
+    top: -11px;
+    left: 11px;
+    z-index: -1;
+    /* opacity: 0; */
+    transition: 1s;
+    display: none;
+}
+
+nav .f1 li .k {
+    width: 135px;
+    top: -11px;
+    left: 110px;
+}
+
+nav .f1 li .ka {
+    width: 80px;
+    top: -11px;
+    left: 245px;
+}
+
+nav .f1 li .kb {
+    width: 100px;
+    top: -11px;
+    left: 325px;
+}
+
+nav .f1 li .kc {
+    width: 140px;
+    top: -11px;
+    left: 425px;
+}
+
+nav .f1 li .ke {
+    width: 90px;
+    top: -11px;
+    left: 565px;
+}
+
+nav .f1 li .kf {
+    width: 125px;
+    top: -11px;
+    left: 655px;
+}
+
+nav .f1 li .kg {
+    width: 175px;
+    top: -11px;
+    left: 780px;
+}
+
+nav .f1 li .kh {
+    width: 120px;
+    top: -11px;
+    left: 955px;
+}
+
+nav .f1 li .kj {
+    width: 120px;
+    top: -11px;
+    left: 1075px;
+}
+
+nav .f1 li .kk {
+    width: 90px;
+    top: -11px;
+    left: 1190px;
+}
+
+nav .f1 li:hover .ho {
+    /* opacity: 1; */
+    display: block;
+}
+
+nav .f1 li .main {
+    height: 400px;
+    width: 1300px;
+    /* background-color: aqua; */
+    /* display: flex; */
+    flex-wrap: wrap;
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    box-shadow: 1px 1px 10px gray;
+    /* opacity: 0; */
+    display: none;
+}
+
+nav .f1 li .main .su {
+    height: 400px;
+    width: 25%;
+    background-color: #fff;
+    padding: 20px;
+    float: left;
+}
+
+nav .f1 li .main .su .fea {
+    font-size: 16px;
+    font-weight: 700px;
+}
+
+nav .f1 li .main .su .f2 {
+    margin-top: 10px;
+}
+
+nav .f1 li .main .su .f2 li {
+    display: block;
+    margin: 0;
+    line-height: 25px;
+}
+
+nav .f1 li .main .su .f2 li a {
+    color: #353434;
+}
+
+nav .f1 li .main .y {
+    width: 25%;
+    background-color: #f8f8f8;
+}
+
+nav .f1 li .main .x {
+    width: 25%;
+    background-color: #f8f8f8;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+}
+
+nav .f1 li:hover .main {
+    display: block;
+}
+
+nav .f1 li .main .su .f2 li a:hover {
+    color: blue;
+}
+
+nav .f1 li .main .a {
+    width: 20%;
+}
+
+nav .f1 li .main .z {
+    background-color: #fff;
+}
+
+nav .f1 li .main .b {
+    width: 16.66%;
+}
+
+nav .f1 li .main .c {
+    width: 14.28%;
+}
+
+nav .f1 li .main .c .fea a {
+    text-decoration: underline;
+    color: blue;
+    font-size: 16px;
+}
+
+
+/* Nav END */
+
+
+/* Main Contant SATRT */
+
+.main {
+    /* height: 420px; */
+    width: 95%;
+    background-color: #fff;
+    margin: 10px 40px 0 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gray;
+    padding-bottom: 20px;
+}
+
+.main .con1 {
+    height: 70px;
+    width: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    align-items: center;
+    /* aama be coment ne vachhe jagaya aapva mte aanu use thay 6 */
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+}
+
+.main .con1 h2 {
+    font-weight: none;
+}
+
+.main .con1 .vi button {
+    padding: 10px 10px;
+    font-size: 13px;
+    background-color: #7d8035;
+    border: transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.main .con2 {
+    /* height: 350px; */
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+
+.main .con2 .pr {
+    /* height: inherit; */
+    width: 25%;
+}
+
+.main .con2 .pr .fl {
+    height: 295px;
+    width: 93%;
+    border: 10px solid #fff;
+    box-shadow: 0 0 3px gray;
+    margin: 10px 0 10px 0;
+    /* text-align: center; */
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.main .con2 .pr .fl img {
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+}
+
+.main .con2 .pr .mium {
+    /* padding-left: 80px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.main .con2 .pr a {
+    text-decoration: none;
+    color: #000;
+}
+
+.main .con2 .pr .a {
+    padding-left: 120px;
+}
+
+.main .con2 .pr .b {
+    padding-left: 130px;
+}
+
+.main .con2 .pr .c {
+    padding-left: 115px;
+}
+
+.main .con2 .pr:hover img {
+    transform: scale(1.05);
+}
+
+
+/* Main Contant END */

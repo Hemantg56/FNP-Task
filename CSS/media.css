@@ -1,1 +1,20 @@
-@import url(media.css);
+@media (max-width:900px) {
+    .main .con2 .pr {
+        width: 50%;
+    }
+    .main .con2 .pr .fl {
+        height: 390px;
+    }
+}
+
+@media (max-width:500px) {
+    .main .con2 .pr {
+        width: 100%;
+    }
+    .main .con2 .pr .fl {
+        height: 390px;
+    }
+    nav .f1 li {
+        display: block;
+    }
+}
